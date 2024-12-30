@@ -1,6 +1,10 @@
+/* google fonts - robotot */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 :root {
   --gruvbox-black: #1e2021;
   --gruvbox-grey: #928373;
+  --gruvbox-midgrey: #303335;
   --gruvbox-red: #fb4833;
   --gruvbox-green: #b8ba25;
   --gruvbox-yellow: #fabc2e;
@@ -13,8 +17,123 @@
 
 body {
   background-color: var(--gruvbox-black);
+  font-family: ui-sans-serif, sans-serif;
+  color: var(--gruvbox-white);
 }
 
-#main-title {
-  color: var(--gruvbox-white);
+/* header section */
+
+header {
+  text-align: right;
+  padding: 20px;
+}
+
+.top-bar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  float: right;
+  margin-left: 30px;
+}
+
+/* icons */
+
+.icon {
+  width: 35px;
+  height: 35px;
+  background-color: var(--gruvbox-white);
+  position: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  background-color: var(--gruvbox-blue);
+}
+
+.linkedin {
+  mask-image: url("../elements/icons/linkedin.svg");
+}
+
+.github {
+  mask-image: url("../elements/icons/github.svg");
+}
+
+/* separator */
+
+hr.separator {
+  border: 0;
+  border-top: 2px solid var(--gruvbox-blue);
+  margin: 35px 0;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.separator-small {
+  border: 0;
+  border-top: 1px solid var(--gruvbox-midgrey);
+  margin: 10px 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main Section */
+
+main {
+  text-align: left;
+  margin-top: 40px;
+  padding-left: 20px;
+}
+
+.home-cover {
+  border-radius: 9999px;
+  width: 12rem;
+  height: 12rem;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-3xl {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+main h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+}
+
+.vimeo-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
