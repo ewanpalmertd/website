@@ -1,0 +1,20 @@
+:root {
+  --gruvbox-black: #1e2021;
+  --gruvbox-grey: #928373;
+  --gruvbox-red: #fb4833;
+  --gruvbox-green: #b8ba25;
+  --gruvbox-yellow: #fabc2e;
+  --gruvbox-blue: #83a597;
+  --gruvbox-magenta: #d3859a;
+  --gruvbox-cyan: #8ec07b;
+  --gruvbox-white: #ebdbb2;
+  --gruvbox-orange: #d65c0d;
+}
+
+body {
+  background-color: var(--gruvbox-black);
+}
+
+#main-title {
+  color: var(--gruvbox-white);
+}

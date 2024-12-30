@@ -1,9 +1,6 @@
 module.exports = {
-  server: {
-    baseDir: "pages",
-    routes: {
-      "/css": "css",
-    },
-  },
-  files: ["css/*.css", "pages/*.html"],
+  server: "./",
+  files: ["*.html", "css/*.css", "js/*.js"],
+  port: 3000,
+  ui: false,
 };
