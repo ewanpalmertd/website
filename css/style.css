@@ -155,6 +155,7 @@ main p {
   height: relative;
   width: 100vw;
   background: url("../elements/images/work_bg_02.jpeg") center/cover no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
 }
 
