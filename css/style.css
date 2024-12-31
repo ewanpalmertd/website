@@ -12,6 +12,14 @@
   --gruvbox-orange: #d65c0d;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--gruvbox-black);
   font-family: ui-sans-serif, sans-serif;
@@ -27,6 +35,13 @@ body {
 header {
   position: relative;
   top: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: var(--gruvbox-black);
+  z-index: 1000;
 }
 
 .align-left {
