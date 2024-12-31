@@ -183,3 +183,69 @@ main p {
   width: 100%;
   height: 100%;
 }
+
+/*
+.showreel {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  width: 50%;
+}
+*/
+
+.work-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.video-container {
+  flex: 1;
+}
+
+.video-container video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.github-repositories {
+  flex: 1;
+  max-width: 40%;
+}
+
+.github-repositories h3,
+.video-container h3 {
+  margin-bottom: 10px;
+}
+
+/* GITHUB REPOS STYLE */
+
+#repo-list {
+  padding: 0;
+}
+
+#repo-list li {
+  margin: 10px 0;
+}
+
+#repo-list a {
+  text-decoration: none;
+  color: var(--gruvbox-cyan);
+}
+
+#repo-list a i {
+  margin-right: 4px;
+  color: var(--gruvbox-green);
+}
+
+#repo-list a:hover i {
+  color: var(--gruvbox-blue);
+}
+
+#repo-list a:hover {
+  color: var(--gruvbox-magenta);
+  transform: scale(1.05);
+}
