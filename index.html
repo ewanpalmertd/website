@@ -6,6 +6,10 @@
     <title>Ewan Palmer's Website</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- Header Section -->
@@ -64,6 +68,23 @@
       <section class="showreel main-padding">
         <h1 class="text-4xl poppins-bold">Work</h1>
         <hr class="separator-small" />
+
+        <div class="work-content">
+          <!-- Showreel -->
+          <div class="video-container">
+            <h3 class="poppins-light">Showreel</h3>
+            <video width="100%" controls>
+              <source src="elements/videos/showreel_01.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <!-- Linked GitHub Repos-->
+          <div class="github-repositories">
+            <h3 class="poppins-light">GitHub Repositories</h3>
+            <ul class="poppins-thin" id="repo-list"></ul>
+            <script src="repos.js"></script>
+          </div>
+        </div>
       </section>
       <!-- Section for main blog -->
       <section class="blog main-padding">
