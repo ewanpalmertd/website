@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ewan Palmer's Website</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
   </head>
   <body>
     <!-- Header Section -->
-    <header>
+    <header class="main-padding">
       <div class="top-bar">
-        <a
-          href="https://linkedin.com/in/ewanpalmervfx/"
-          target="_blank"
-          class="linkedin-logo"
-        >
-          <div class="icon linkedin"></div>
-        </a>
-        <a
-          href="https://github.com/ewanpalmertd"
-          target="_blank"
-          class="github-logo"
-        >
-          <div class="icon github"></div>
-        </a>
+        <h2 class="poppins-thin text-3xl align-left" id="web-header">
+          Ewan Palmer - Pipeline TD
+        </h2>
+        <div class="header-icons">
+          <a
+            href="https://linkedin.com/in/ewanpalmervfx/"
+            target="_blank"
+            class="align-right linkedin-logo"
+          >
+            <div class="icon linkedin"></div>
+          </a>
+          <a
+            href="https://github.com/ewanpalmertd"
+            target="_blank"
+            class="align-right github-logo"
+          >
+            <div class="icon github"></div>
+          </a>
+        </div>
       </div>
     </header>
 
@@ -31,7 +37,8 @@
 
     <!-- Main Body Section -->
     <main>
-      <section class="blurred-section">
+      <!-- Introduction section -->
+      <section class="top-main-padding blurred-section">
         <div class="blurred-content main-padding">
           <div class="h-40, w-40 rounded-full">
             <img
@@ -40,35 +47,29 @@
               class="home-cover"
             />
           </div>
-          <h1 class="text-4xl">Welcome to my website 👋</h1>
-          <p class="text-2xl font-light">
+          <h1 class="text-4xl poppins-bold">Welcome to my website 👋</h1>
+          <p class="text-2xl poppins-light">
             I'm a Pipeline TD with expertise in VFX Software like Houdini, Maya,
             and Nuke, utilizing Python and USD. I specialize in building
             efficient pipelines and creating custom tools to automate tasks and
             to optimize workflows. You can find my showreel here and my work.
           </p>
-          <p class="text-2xl font-thin">
+          <p class="text-2xl poppins-thin">
             I also blog here about anything cool I might come across during my
             projects.
           </p>
         </div>
       </section>
+      <!-- Section for work -->
       <section class="showreel main-padding">
-        <h1 class="text-3xl">Showreel</h1>
+        <h1 class="text-4xl poppins-bold">Work</h1>
+        <hr class="separator-small" />
       </section>
-
-      <hr class="separator-small" />
-
-      <div style="padding: 56.25% 0 0 0; position: relative">
-        <iframe
-          class="vimeo-link"
-          src="https://player.vimeo.com/video/956480507?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-          title="Ewan Palmer | Pipeline TD Showreel"
-        ></iframe>
-      </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
+      <!-- Section for main blog -->
+      <section class="blog main-padding">
+        <h1 class="text-4x1 poppins-bold">Blog</h1>
+        <hr class="separator-small" />
+      </section>
     </main>
   </body>
 </html>
