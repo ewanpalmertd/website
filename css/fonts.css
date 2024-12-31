@@ -1,0 +1,47 @@
+/* google fonts - robotot */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --gruvbox-black: #1e2021;
+  --gruvbox-grey: #928373;
+  --gruvbox-midgrey: #303335;
+  --gruvbox-red: #fb4833;
+  --gruvbox-green: #b8ba25;
+  --gruvbox-yellow: #fabc2e;
+  --gruvbox-blue: #83a597;
+  --gruvbox-magenta: #d3859a;
+  --gruvbox-cyan: #8ec07b;
+  --gruvbox-white: #ebdbb2;
+  --gruvbox-orange: #d65c0d;
+}
+
+.lobster {
+  font-family: "Lobster", cursive;
+}
+
+/*poppins font family*/
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
