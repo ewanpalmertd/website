@@ -215,7 +215,7 @@ main p {
   flex-direction: row;
   width: 100%;
   align-items: flex-start;
-  gap: 40px;
+  gap: 4%;
 }
 
 .video-container {
@@ -241,6 +241,7 @@ main p {
 
 #repo-list {
   padding: 0;
+  font-size: 1.15rem;
 }
 
 #repo-list li {
@@ -264,4 +265,24 @@ main p {
 #repo-list a:hover {
   color: var(--gruvbox-magenta);
   transform: scale(1.05);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0 5px 0;
+  background: linear-gradient(
+    to top,
+    var(--gruvbox-black) 55%,
+    transparent 100%
+  );
+  font-size: 12px;
+}
+
+footer h3 {
+  position: relative;
+  top: 7px;
 }
